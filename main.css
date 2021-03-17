@@ -5,64 +5,33 @@ body {
 }
 
 header {
-    height:25vh;
+    height:5vh;
     background-color:#F76C6C;
     background-image: url("assets/pattern.png");
     background-size: cover;
-}
-
-header img {
-    width:20%;
-    min-width: 300px;
-}
-
-h1 {
-    font-size: 2em;
-}
-
-main {
-    background-color:#FFF;
-    color:#39424E;
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    width:60%;
-    max-width:800px;
-    border-radius: 10px;
-    border: 1px solid #DDD;
     display:flex;
-    flex-flow:column nowrap;
-    align-items: center;
-    justify-content: center;
-    font-size:0.8em;
-    padding:50px 0;
+    flex-flow:row nowrap;
+    justify-content: space-between;
 }
 
-main>* {
-    width:80%;
+#menu-left {
+    height:100%;
+    display:flex;
+    flex-flow:row nowrap;
 }
 
-label, input {
-    display:block;
+#menu-left>img {
+    height:100%;
 }
+#menu-right {
+width:5vh;
+display:flex;
+justify-content: center;
+align-items: center;
 
-label {
-    margin:20px 0;
 }
-
-input {
-    width:100%;
-    box-sizing: border-box;
-}
-
-input[type="submit"]{
-    background-color:#F76C6C;
-    border:0;
-    padding:0.5em;
-    text-transform: uppercase;
-    color: #FFF;
-    border-radius: 5px;;
+#menu-right>img {
+    height:80%;
 }
 
 footer {
