@@ -8,6 +8,7 @@ Ce projet servira en fil rouge de la session 2021/03 de la Wild de Lille. La ver
 - Base de page de connexion
 - Base de page principale
 - [Mock] Redirection factice lors du Submit du formulaire de connexion
+- Barre de navigation (avatar & Notifications)
 
 ### Todo
 - Ajouter la section Timeline (en JS ?)
